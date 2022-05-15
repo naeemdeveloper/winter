@@ -1,0 +1,289 @@
+/*-- medium-layout-1280-px --*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.hero-content h1 {
+		font-size: 40px;
+	}
+	.single-services-item h5 {
+		font-size: 16px;
+	}
+	.single-portfolio-item img {
+		height: 250px;
+	}
+	.single-portfolio-item-large img {
+		height: 530px;
+	}
+	.cta-text h2 {
+		font-size: 32px;
+	}
+	.large-blog-text {
+		padding: 30px 30px;
+	}
+	.arrow-down, 
+	.portfolio-area .arrow-down {
+		display: none;
+	}
+}
+
+/*-- tablet-layout-768-px --*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 14px;
+	}
+	.header-area {
+		text-align: center;
+	}
+	.navbar-header {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.navbar-brand {
+		float: none;
+	}
+	.navbar ul {
+		width: 100%;
+		float: none;
+	}
+	.navbar ul li {
+		float: none;
+		display: inline-block;
+	}
+	.navbar ul .active a,
+	.navbar ul li a:hover {
+		color: #fff;
+	}
+	.arrow-down, 
+	.portfolio-area .arrow-down {
+		display: none;
+	}
+	.hero-content {
+		padding: 220px 0;
+		text-align: center;
+	}
+	.hero-content h1 {
+		font-size: 30px;
+	}
+	.contact-form input[type=submit],
+	.custom-btn {
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+	.mouse-icon {
+		bottom: -100px;
+	}
+	.mouse-icon i {
+		font-size: 30px;
+		margin-left: -15px;
+	}
+	.resume-content hr,
+	.about-content hr {
+		margin: 0 0 20px;
+	}
+	.my-skills,
+	.experience	{
+		margin-top: 48px;
+	}
+	.ssi-margin-bottom {
+		margin-bottom: 30px;
+	}
+	.portfolio-tab {
+		text-align: center;
+	}
+	.portfolio-tab ul li {
+		float: none;
+		display: inline;
+	}
+	.single-portfolio-item img {
+		height: 250px;
+	}
+	.single-portfolio-item-large img {
+		height: 530px;
+	}
+	.cta-text h2 {
+		font-size: 30px;
+	}
+	.cta-btn {
+		float: none;
+		font-size: 18px;
+		padding: 12px 25px;
+	}
+	.reviews-slider .owl-nav .owl-next,
+	.reviews-slider .owl-nav .owl-prev {
+		display: none;
+	}
+	.contact-info {
+		padding: 0;
+		overflow: hidden;
+	}
+	.contact-form {
+		margin-top: 48px;
+		overflow: hidden;
+	}
+	.footer-area {
+		text-align: center;
+	}
+	.design-info {
+		float: none;
+		margin-top: 10px;
+	}
+}
+
+/*-- mobile-layout --*/
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 14px;
+	}
+	h1 {
+    font-size: 30px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+	.section-padding {
+		padding: 72px 0;
+	}
+
+	.content-margin {
+		margin-top: 36px;
+	}
+	.navbar ul {
+		width: 100%;
+		float: none;
+	}
+	.navbar ul .active a,
+	.navbar ul li a:hover {
+		color: #fff;
+	}
+	.arrow-down, 
+	.portfolio-area .arrow-down {
+		display: none;
+	}
+	.hero-content {
+		padding: 120px 0;
+		text-align: left;
+		height: 450px;
+		position: relative;
+	}
+	.hero-content .custom-btn {
+		position: absolute;
+		left: 0;
+		bottom: 120px;
+	}
+	.contact-form input[type=submit],
+	.custom-btn {
+		font-size: 10px;
+		padding: 8px 15px;
+	}
+	.mouse-icon {
+		display: none;
+	}
+	.resume-content hr,
+	.about-content hr {
+		margin: 0 0 20px;
+		width: 50px;
+	}
+	.my-skills,
+	.experience	{
+		margin-top: 24px;
+	}
+	.single-services-item {
+		width: 100%;
+		margin: auto;
+		padding: 30px;
+		margin-bottom: 20px;
+	}
+	.single-services-item:hover {
+		background: transparent;
+		border-radius: none;
+	}
+	.single-services-item:hover i {
+		color: #333;
+	}
+	.portfolio-tab {
+		text-align: center;
+	}
+	.portfolio-tab ul li  {
+		float: none;
+		margin-right: 0;
+		padding: 5px 0;
+	}
+	.portfolio-tab ul .active,
+	.portfolio-tab ul li:hover {
+		color: #35353c;
+	}
+	.single-portfolio-item,
+	.single-blog-post {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.single-portfolio-item img {
+		width: 100%;
+		height: auto;
+	}
+	.cta-btn {
+		font-size: 16px;
+		padding: 10px 20px;
+	}
+	.single-blog-post img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.blog-text {
+		padding: 24px 20px;
+	}
+	.read-more-button a {
+		font-size: 12px;
+	}
+	.reviews-slider .owl-nav .owl-next,
+	.reviews-slider .owl-nav .owl-prev {
+		display: none;
+	}
+	.contact-info {
+		padding: 0;
+		overflow: hidden;
+	}
+	.contact-info ul li a i {
+	font-size: 18px;
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+	}
+	.contact-form {
+		margin-top: 48px;
+		overflow: hidden;
+	}
+	.contact-form input,
+	.contact-form textarea {
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+	.contact-form input[type=text],
+	.contact-form input[type=email] {
+		width: 100%;
+		float: none;
+	}
+	.contact-form input[type=text] {
+		margin-right: 0;
+	}
+	.footer-area {
+		text-align: center;
+	}
+	.design-info {
+		float: none;
+		margin-top: 10px;
+	}
+}
